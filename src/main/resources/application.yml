@@ -21,3 +21,10 @@ application:
     license:
       type: copyright
       url: https://www.telefonica.com.pe
+  topic:
+    foo: queue-faults-traceability
+    
+external:
+  api:
+    insertFaultFromTriaje: fault/insertFaultFromTriaje
+    
