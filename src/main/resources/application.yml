@@ -1,0 +1,23 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /custom-path
+
+spring:
+  application:
+    name: triajekafka
+  main:
+    allow-bean-definition-overriding: true
+
+application:
+  swagger:
+    title: '@project.name@'
+    description: '@project.description@'
+    version: '@project.version@'
+    contact:
+      name: Telefonica del Peru
+      url: https://www.telefonica.com.pe
+      email: correo@dominio.com
+    license:
+      type: copyright
+      url: https://www.telefonica.com.pe
