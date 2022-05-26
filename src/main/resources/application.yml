@@ -8,6 +8,18 @@ spring:
     name: triajekafka
   main:
     allow-bean-definition-overriding: true
+  config:
+    import: optional:configserver:http://localhost:8888/ 
+  kafka:
+    consumer:
+      group-id: faultKafka-test
+      auto-offset-reset: latest
+    bootstrap-servers: 10.4.88.41:6667
+  data:
+    mongodb:
+      uri: mongodb://account-trazabilidad-averia-cert:7uNgc5jBCeY0J1hneFqjK7W7EJRpmPV9uIIdPGBe39LUGQ6QoG1V3pz2Eb2AowtvULmDVamom2LDnyptyYPxNQ==@account-trazabilidad-averia-cert.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@account-trazabilidad-averia-cert@
+      port: 10255
+      database: compose
 
 application:
   swagger:
@@ -27,4 +39,7 @@ application:
 external:
   api:
     insertFaultFromTriaje: fault/insertFaultFromTriaje
-    
+    faultUrl: https://wa-trazabilidad-msfaults-cert.azurewebsites.net/
+    faultClientId: 7cd28f7a-7767-44dd-a7f2-91a7380ff8ce
+    faultClientSecret: df77bb26-c920-4fdd-843e-7dd3427a78d1
+    faultAuthorization: Basic dHJhY2VhYmlsaXR5VXNlcjptMFYxc3RAUjR2M1JJNA==

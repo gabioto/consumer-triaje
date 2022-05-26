@@ -10,13 +10,9 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 @SpringBootTest
 public class TriajekafkaApplicationTests {
 
-    @Test
-    public void contextLoads() {
-    }
-
-    @Test
-    public void main() {
-        TriajekafkaApplication.main(new String[] {});
-    }
+//    @Test
+//    public void main() {
+//    	ProducerConsumerApplication.main(new String[] {});
+//    }
 
 }
