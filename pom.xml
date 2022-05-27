@@ -17,7 +17,7 @@
 
 	<groupId>com.tdp.ms</groupId>
 	<artifactId>triajekafka</artifactId>
-	<version>0.1.36-SNAPSHOT</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Template from Genesis Framework to build microservices</description>
 
