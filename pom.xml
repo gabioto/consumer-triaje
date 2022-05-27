@@ -331,6 +331,7 @@
 							<failOnWarning>true</failOnWarning>
 							<outputXML>true</outputXML>
 							<ignoredUnusedDeclaredDependencies>
+								<ignoredUnusedDeclaredDependency>com.google.guava:guava:jar::</ignoredUnusedDeclaredDependency>
 								<ignoredUnusedDeclaredDependency>com.azure.spring:azure-spring-boot:jar::</ignoredUnusedDeclaredDependency>
 								<ignoredUnusedDeclaredDependency>com.azure.spring:azure-spring-boot-starter-cosmos:jar::</ignoredUnusedDeclaredDependency>
 								<ignoredUnusedDeclaredDependency>com.azure.spring:azure-spring-boot-starter-storage:jar::</ignoredUnusedDeclaredDependency>
