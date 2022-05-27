@@ -19,3 +19,7 @@ application:
   catalog-error:
     url: https://apimngr-genesis-prod.azure-api.net/errorlist/
     subscription-key: 4b7d6d29e4be4b82b6418f44ceef60a2
+
+external:
+  api:
+    insertFaultFromTriaje: fault/insertFaultFromTriaje
